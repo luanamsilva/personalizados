@@ -11,12 +11,12 @@ export const Header = () => {
     
       <nav className="bg-main text-light">
       
-        <ul className="flex flex-col items-center sm:flex-row sm:justify-center sm:items-center p-3 gap-10">
-          <li><a href="/">Página Inicial</a></li>
-          <li><a href="/decoration">Decoração</a></li>         
-          <li><a href="/stationary">Papelaria</a></li>
-          <li><a href="/lux">Personalizados de Luxo</a></li>
-          <li><a href="/special">Caixas Especiais</a></li>
+        <ul className="flex flex-col items-center sm:flex-row sm:justify-center sm:items-center p-3 gap-10 ">
+          <li className='hover:text-gray-300'><a href="/">Página Inicial</a></li>
+          <li className='hover:text-gray-300 '><a href="/decoration">Decoração</a></li>         
+          <li className='hover:text-gray-300'><a href="/stationary">Papelaria</a></li>
+          <li className='hover:text-gray-300'><a href="/lux">Personalizados de Luxo</a></li>
+          <li className='hover:text-gray-300'><a href="/special">Caixas Especiais</a></li>
         </ul>
       </nav>
     </header>
