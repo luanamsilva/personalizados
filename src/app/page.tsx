@@ -7,8 +7,10 @@ export default function Home() {
   return (
     <>
       <Header />
+  <div className='flex flex-wrap'>
       {itemsData.map((item) => (
-        <Item 
+        
+        <Item
         key={item.id} 
         title={item.title} 
         theme={item.theme} 
@@ -16,6 +18,7 @@ export default function Home() {
       
         />
       ))}
+      </div>
     </>
   );
 }

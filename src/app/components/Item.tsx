@@ -8,14 +8,15 @@ type Props = {
 };
 
 export const Item = ({ title, theme, image}: Props) => {
-  return <div>
+  return <div className="flex flex-col m-4 p-4 ">
+    
     <h1>{title} </h1>
     <p>{theme}</p>
-    <Image
+    <Image className="w-33 h-32 object-cover" 
         src={image}
         alt={title}
-        width={300}
-        height={200}
+        width={150}
+        height={150}
       />
   </div>;
 };
