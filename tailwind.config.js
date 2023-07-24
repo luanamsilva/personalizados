@@ -12,6 +12,9 @@ module.exports = {
         'main': '#966978',
         'light': '#FDFBFB',
         'brown': '#88704A',
+      },
+      scale: {
+        '175': '1.75',
       }
     },
   },
