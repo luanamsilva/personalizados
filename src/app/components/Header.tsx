@@ -14,7 +14,7 @@ export const Header = () => {
       
         <ul className="flex flex-col items-center sm:flex-row sm:justify-center sm:items-center p-3 gap-10 ">
         {navLinks.map((link, index)=>(
-<li className='hover:text-gray-300' key={index}>
+<li className='hover:text-gray-200' key={index}>
   <Link href={link.path}>{link.label}</Link>
 </li>
         ))}
