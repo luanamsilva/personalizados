@@ -3,11 +3,12 @@ import { Header } from './components/Header';
 import { Item } from './components/Item';
 import { itemsData } from './data/items';
 
+
 export default function Home() {
 
   return (
     <>
-      <Header />
+      <Header/>
   <div className='flex flex-wrap'>
       {itemsData.map((item) => (
         
