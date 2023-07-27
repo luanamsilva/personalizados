@@ -4,6 +4,7 @@ export const itemsData = [
     title: 'Festa Completa',
     theme: 'Tardezinha',
     image: '/images/festacompletatardezinha.jpeg'
+
   },
   {
     id: 2,

@@ -1,12 +1,10 @@
-import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
 import { itemsData } from '../data/items';
 import { Item } from '../components/Item';
 
 const Decoration = () => {
   return (
     <>
-      <Header />
+   
       <div className="flex flex-wrap">
         {itemsData
           .filter((item) => item.title === 'Festa Completa')
@@ -19,7 +17,6 @@ const Decoration = () => {
             />
           ))}
       </div>
-      <Footer />
     </>
   );
 };
