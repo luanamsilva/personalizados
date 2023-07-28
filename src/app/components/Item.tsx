@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 type Props = {
+  id?: number
   title:string,
   theme: string,
   image: string
@@ -20,10 +21,13 @@ const handleRemoveZoom = ()=>{
   setImageZoom(false)
 }
 
+
+
   return <div  onMouseEnter={handleZoom} onMouseLeave={handleRemoveZoom} className="flex flex-col m-4 p-4">
     
     <h1 className='text-brown text-center font-bold'>{title} </h1>
     <p className='text-brown text-center text-sm py-2'>Tema: {theme}</p>
+   
     <Image className={`w-40 h-40 rounded-md object-cover transition-transform ${
           imageZoom ? 'transform scale-175 cursor-pointer' : ''
         }`} 
@@ -32,6 +36,6 @@ const handleRemoveZoom = ()=>{
         width={150}
         height={150}
       />
-    
+  
   </div>;
 };
