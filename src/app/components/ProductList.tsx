@@ -1,5 +1,5 @@
 import { Item } from './../components/Item';
-import { itemsData } from '../data/items';
+import  itemsData  from '../data/itemsData.json';
 import Link from 'next/link';
 
 export default function ProductList() {

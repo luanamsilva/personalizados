@@ -1,4 +1,4 @@
-import { itemsData } from '../data/items';
+import  itemsData  from '../data/itemsData.json';
 import { Item } from '../components/Item';
 
 const Special = () => {
