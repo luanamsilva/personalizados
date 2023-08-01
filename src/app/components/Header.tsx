@@ -16,13 +16,14 @@ export const Header = () => {
      
       <div className="flex justify-between flex-wrap sm:w-full">
         <div>
+          <Link href={'/'}>
           <Image
             className="m-3 ml-28"
             src="/images/logo.jpeg"
             width={90}
             height={90}
             alt="logo"
-          />
+          /></Link>
        </div >
         
           <div className='flex justify-center items-center mt-4 sm:mt-0 w-full sm:w-auto mb-4'>
