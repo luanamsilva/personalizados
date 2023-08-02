@@ -1,40 +1,32 @@
-"use client"
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 import { navLinks } from '../data/nav';
 
-
-
-
 export const Header = () => {
-
-
-
- 
   return (
     <header>
-     
       <div className="flex justify-between flex-wrap sm:w-full">
         <div>
           <Link href={'/'}>
-          <Image
-            className="m-3 ml-28"
-            src="/images/logo.jpeg"
-            width={90}
-            height={90}
-            alt="logo"
-          /></Link>
-       </div >
-        
-          <div className='flex justify-center items-center mt-4 sm:mt-0 w-full sm:w-auto mb-4'>
-            <form >
-          <input
-            className="rounded-md p-1 pl-4 mt-6 mr-6 text-center text-brown outline-main bg-ligth mx:auto"
-            type="text"
-            placeholder="Pesquisar "
-      
-          />
-        </form>
+            <Image
+              className="m-3 ml-28"
+              src="/images/logo.jpeg"
+              width={90}
+              height={90}
+              alt="logo"
+            />
+          </Link>
+        </div>
+
+        <div className="flex justify-center items-center mt-4 sm:mt-0 w-full sm:w-auto mb-4">
+          <form>
+            <input
+              className="rounded-md p-1 pl-4 mt-6 mr-6 text-center text-brown outline-main bg-ligth mx:auto"
+              type="text"
+              placeholder="Pesquisar "
+            />
+          </form>
         </div>
       </div>
       <nav className="bg-main">
