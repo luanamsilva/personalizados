@@ -24,7 +24,7 @@ const Product: NextPage<ProductProps> = ({ params: { productId } }) => {
 
   return (
     <>
-      <div className="flex text-brown items-center justify-center">
+      <div className="flex flex-wrap text-brown items-center justify-center">
         <Image
           className="m-4 rounded-md"
           src={product.image}
