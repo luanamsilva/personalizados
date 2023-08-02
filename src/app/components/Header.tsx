@@ -1,4 +1,5 @@
 'use client';
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { navLinks } from '../data/nav';
@@ -20,13 +21,7 @@ export const Header = () => {
         </div>
 
         <div className="flex justify-center items-center mt-4 sm:mt-0 w-full sm:w-auto mb-4">
-          <form>
-            <input
-              className="rounded-md p-1 pl-4 mt-6 mr-6 text-center text-brown outline-main bg-ligth mx:auto"
-              type="text"
-              placeholder="Pesquisar "
-            />
-          </form>
+  
         </div>
       </div>
       <nav className="bg-main">
