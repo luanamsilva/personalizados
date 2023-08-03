@@ -43,7 +43,7 @@ export const Footer = () => {
               <p className="ml-2">(37) 99820-8850</p>
             </Link>
           </div>
-          <p>8:00 às 8:00 seg a sex</p>
+          <p>8:00 às 18:00 seg a sex</p>
         </div>
 
         <div className="w-full p-4 md:w-auto">
