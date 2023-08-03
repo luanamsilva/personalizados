@@ -3,11 +3,23 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import itemsData from './data/itemsData.json';
 import { Item } from './components/Item';
+import NextPage from './components/NextPage';
+import unidecode from 'unidecode';
+
+
 
 
 export default function Home() {
   const [search, setSearch] = useState('');
-const products = itemsData.filter(item => item.title.toLowerCase().includes(search.toLowerCase()) || item.theme.toLowerCase().includes(search.toLowerCase()))
+  const removeAccents = (word:string) => unidecode(word);
+
+  
+const products = itemsData.filter(item => 
+
+  item.title.toLowerCase().includes(search.toLowerCase()) ||
+  item.theme.toLowerCase().includes(search.toLowerCase()) ||
+  removeAccents(item.title.toLowerCase()).includes(search.toLowerCase()) ||
+  removeAccents(item.theme.toLowerCase()).includes(search.toLowerCase()))
 
 
   return (
@@ -21,7 +33,8 @@ const products = itemsData.filter(item => item.title.toLowerCase().includes(sear
           onChange={(e) => setSearch(e.target.value)}
         />
       </div>
-      <div className="flex flex-wrap">
+{search === '' ? <NextPage/> :
+<div className="flex flex-wrap">
         {products.map((item) => (
           <Link key={item.id} href={`/products/${item.id}`} passHref>
             <Item
@@ -32,7 +45,8 @@ const products = itemsData.filter(item => item.title.toLowerCase().includes(sear
             />
           </Link>
         ))}
-      </div>
+      </div> }
+      
     </div>
   );
 }
