@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Item } from "./Item";
 import itemsData from '../data/itemsData.json'
 
-const itemsPerPage = 18;
+const itemsPerPage = 12;
 
 const NextPage = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -25,9 +25,9 @@ const NextPage = () => {
   };
   return (
     <div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-center">
         {currentItems.map((item) => (
-          <Link key={item.id} href={`/products/${item.id}`} passHref>
+          <Link key={item.id} className="justify-center" href={`/products/${item.id}`} passHref>
             <Item
               key={item.id}
               title={item.title}
