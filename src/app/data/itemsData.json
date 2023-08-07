@@ -330,6 +330,12 @@
   "title": "Festa Completa",
   "theme": "Neon",
   "image": "/images/festacompletaneon.jpeg"
+},
+{
+  "id": 55,
+  "title": "Kit Papelaria",
+  "theme": "Super Heróis",
+  "image": "/images/bannerpapelaria.jpg"
 }
 
 ]

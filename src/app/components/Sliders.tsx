@@ -9,6 +9,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay'
 import 'swiper/css/effect-coverflow'
+import Link from 'next/link';
 
 
 interface Slider {
@@ -57,7 +58,8 @@ const Sliders = ({ sliders}: Props) => {
     return (
     
     <SwiperSlide key={item.id}> 
-    <div style={{ display: 'flex', justifyContent: 'center' }}>
+    <div>
+    <Link key={item.id} href={`/products/${item.id}`} passHref>
         <Image
           className="rounded-md w-full h-400 object-cover"
           
@@ -67,7 +69,7 @@ const Sliders = ({ sliders}: Props) => {
           height={200}
          
         />
-        
+       </Link> 
 </div>
 
     </SwiperSlide>)

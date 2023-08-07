@@ -25,12 +25,12 @@ const products = itemsData.filter(item =>
 
   return (
     <div>
-     <div className='flex'>
+     <div className='flex my-6'>
       <Sliders sliders={sliders}/>
       </div>
-      <div className="flex justify-center items-center mt-4 sm:mt-0 w-full sm:w-auto mb-4">
+      <div className="flex justify-center bg-main items-center mt-4 sm:mt-0 w-full sm:w-auto mb-4">
         <input
-          className="rounded-md border border-rose p-1 pl-4 mt-6 mr-6 text-center text-brown placeholder:text-brown placeholder:opacity-60 outline-main bg-ligth mx:auto"
+          className="rounded-md border  border-rose-200 p-1 pl-4 m-3 text-center text-brown placeholder:text-brown placeholder:opacity60 outline-main bg-ligth mx:auto"
           type="text"
           placeholder="Busque aqui seu produto "
           value={search}
