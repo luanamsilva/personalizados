@@ -1,341 +1,396 @@
-  [{
-    "id": 1,
-    "title": "Festa Completa",
-    "theme": "Tardezinha",
-    "image": "/images/festacompletatardezinha.jpeg"
-    
+[{
+  "id": 1,
+  "title": "Festa Completa",
+  "theme": "Tardezinha",
+  "image": "/images/festacompletatardezinha.jpeg",
+  "description": "Festa com o tema Tardezinha. Decoramos a sua festa com o tema que você deseja. Entre em contato para mais detalhes "
 
-  },
-  {
-    "id": 2,
-    "title": "Caixa Dupla",
-    "theme": "Unicórnio",
-    "image": "/images/caixaduplaUnicornio.jpeg"
-  },
-  
-  {
-    "id": 3,
-    "title": "Nutella",
-    "theme": "Super Herói",
-    "image": "/images/nutellasuperheroi.jpg"
-  },
-  
-  
-  
-  {
-  "id": 4,
-  "title": "Batata Pringles",
-  "theme": "Atlético Mineiro",
-  "image": "/images/batata-galo-2.jpeg"
-},
-  
-{
-  "id": 5,
-  "title": "Batata Pringles",
-  "theme": "Atlético Mineiro",
-  "image": "/images/batata-galo.jpeg"
 },
 {
-  "id": 6,
-  "title": "Batata Pringles",
-  "theme": "Unicórnio",
-  "image": "/images/batata-unicornio.jpeg"
-},
-{
-  "id": 7,
-  "title": "Batata Pringles",
-  "theme": "Super Heróis",
-  "image": "/images/batata1superheroi.jpg"
-},
-{
-  "id": 8,
-  "title": "Batata Pringles",
-  "theme": "Super Heróis",
-  "image": "/images/batata2superheroi.jpg"
-},
-{
-  "id": 9,
-  "title": "Batata Pringles",
-  "theme": "Super Heróis",
-  "image": "/images/batata3superheroi.jpg"
-},
-{
-  "id": 10,
-  "title": "Batata Pringles",
-  "theme": "Safari",
-  "image": "/images/batata4safari.jpg"
-},
-{
-  "id": 11,
-  "title": "Batata Pringles",
-  "theme": "Safari",
-  "image": "/images/batata5safari.jpg"
-},
-{
-  "id": 12,
-  "title": "Batata Pringles",
-  "theme": "Super Heróis",
-  "image": "/images/batata6superheroi.jpg"
-},
-{
-  "id": 13,
-  "title": "Batata Pringles",
-  "theme": "Fundo do Mar",
-  "image": "/images/batatafundomar.jpeg"
-},
-{
-  "id": 14,
-  "title": "Batata Pringles",
-  "theme": "Natal",
-  "image": "/images/batatanatal.jpeg"
-},
-{
-  "id": 15,
-  "title": "Batata Pringles",
-  "theme": "Safari",
-  "image": "/images/batatasafari.jpg"
-},
-{
-  "id": 16,
-  "title": "Batata Pringles",
-  "theme": "Safari",
-  "image": "/images/batatasafari1.jpg"
-},
-{
-  "id": 17,
-  "title": "Caixa Cenário",
-  "theme": "Atlético Mineiro",
-  "image": "/images/caixa-cenario-galo.jpeg"
-},
-{
-  "id": 18,
-  "title": "Caixa Cenário",
-  "theme": "Unicórnio",
-  "image": "/images/caixa-cenario-unicornio.jpeg"
-},
-{
-  "id": 19,
-  "title": "Caixa Cenário",
-  "theme": "Unicórnio",
-  "image": "/images/caixa-cenario-unicornio2.jpeg"
-},
-{
-  "id": 20,
+  "id": 2,
   "title": "Caixa Dupla",
-  "theme": "Atlético Mineiro",
-  "image": "/images/caixa-dupla-galo.jpeg"
-},
-{
-  "id": 21,
-  "title": "Caixa Cenário",
-  "theme": "Fundo do Mar",
-  "image": "/images/caixacenariofundomar1.jpeg"
-},
-{
-  "id": 22,
-  "title": "Caixa Cenário",
-  "theme": "Fundo do Mar",
-  "image": "/images/caixacenariofundomar2.jpeg"
-},
-{
-  "id": 23,
-  "title": "Caixa Cenário",
-  "theme": "Safari",
-  "image": "/images/caixacenariosafari1.jpg"
-},
-{
-  "id": 24,
-  "title": "Caixa Dupla",
-  "theme": "Fundo do Mar",
-  "image": "/images/caixaduplafundomar.jpeg"
-},
-{
-  "id": 25,
-  "title": "Caixa Especial",
-  "theme": "Safari",
-  "image": "/images/caixasepeciais2.jpg"
-},
-{
-  "id": 26,
-  "title": "Caixa Especial",
-  "theme": "Batizado",
-  "image": "/images/caixasepeciaisbatizado.jpeg"
-},
-{
-  "id": 27,
-  "title": "Caixa Especial",
-  "theme": "Safari",
-  "image": "/images/caixasespeciais.jpg"
-},
-{
-  "id": 28,
-  "title": "Caixa Especial",
-  "theme": "Safari",
-  "image": "/images/caixasespeciaissafari.jpg"
-},
-{
-  "id": 29,
-  "title": "Caixa Especial",
-  "theme": "Super Heróis",
-  "image": "/images/caixasespeciaissuperheroi.jpg"
-},
-{
-  "id": 30,
-  "title": "Caixa Especial",
-  "theme": "Super Heróis",
-  "image": "/images/caixasespeciaissuperheroi2.jpg"
-},
-{
-  "id": 31,
-  "title": "Festa Completa",
-  "theme": "Batizado",
-  "image": "/images/festacompletabatizado.jpeg"
-},
-{
-  "id": 32,
-  "title": "Festa Completa",
-  "theme": "Tik Tok",
-  "image": "/images/festacompletatiktok.jpeg"
-},
-{
-  "id": 33,
-  "title": "Barra de chocolate",
   "theme": "Unicórnio",
-  "image": "/images/kitkat-unicornio.jpeg"
-},
-{
-  "id": 34,
-  "title": "Barra de chocolate",
-  "theme": "Batizado",
-  "image": "/images/kitkatbatizado.jpeg"
-},
-{
-  "id": 35,
-  "title": "Barra de chocolate",
-  "theme": "Safari",
-  "image": "/images/kitkatsafari.jpg"
-},
-{
-  "id": 36,
-  "title": "Barra de chocolate",
-  "theme": "Super Herói",
-  "image": "/images/kitkatsuperheroi.jpg"
-},
-{
-  "id": 37,
-  "title": "Nutella",
-  "theme": "Atlético Mineiro",
-  "image": "/images/nutella-galo.jpeg"
-},
-{
-  "id": 38,
-  "title": "Nutella",
-  "theme": "Safari",
-  "image": "/images/nutellasafari.jpg"
+  "image": "/images/caixaduplaUnicornio.jpeg",
+  "description":"Nossa caixa dupla é composta por duas caixas, com o personagem em biscuit. Caixa toda trabalhada com fitas e acessórios."
 },
 
 {
-  "id": 39,
-  "title": "Papelaria de Luxo",
-  "theme": "Atlético Mineiro",
-  "image": "/images/papelaria-luxo-galo.jpeg"
-},
-{
-  "id": 40,
-  "title": "Papelaria de Luxo",
-  "theme": "Unicórnio",
-  "image": "/images/papelaria-luxo-unicornio.jpeg"
-},
-{
-  "id": 41,
-  "title": "Papelaria Simples",
-  "theme": "Safari",
-  "image": "/images/papelaria-simples-safari1.jpeg"
-},
-{
-  "id": 42,
-  "title": "Papelaria Simples",
-  "theme": "Safari",
-  "image": "/images/papelaria-simples-safari2.jpeg"
-},
-{
-  "id": 43,
-  "title": "Papelaria Simples",
-  "theme": "Safari",
-  "image": "/images/papelaria-simples-safari3.jpeg"
-},
-{
-  "id": 44,
-  "title": "Papelaria de Luxo",
+  "id": 3,
+  "title": "Nutella",
   "theme": "Super Herói",
-  "image": "/images/papelaria2superheroi.jpg"
+  "image": "/images/nutellasuperheroi.jpg",
+  "description": "Alegria das crianças, a nutella personalizada é um item de muito sucesso. Personalizamos qualquer tema."
 },
+
+
+
 {
-  "id": 45,
-  "title": "Papelaria de Luxo",
-  "theme": "Safari",
-  "image": "/images/papelariasafari.jpg"
-},
-{
-  "id": 46,
-  "title": "Papelaria de Luxo",
-  "theme": "Safari",
-  "image": "/images/papelariasafari1.jpg"
-},
-{
-  "id": 47,
-  "title": "Papelaria de Luxo",
-  "theme": "Super Herói",
-  "image": "/images/papelariasuperheroi.jpg"
-},
-{
-  "id": 48,
-  "title": "Papelaria de Luxo",
-  "theme": "Super Herói",
-  "image": "/images/papelariasuperheroi2.jpg"
-},
-{
-  "id": 49,
-  "title": "Papelaria de Luxo",
-  "theme": "Tik Tok",
-  "image": "/images/papelariatiktok.jpeg"
-},
-{
-  "id": 50,
-  "title": "Papelaria de Luxo",
-  "theme": "Tik Tok",
-  "image": "/images/papelariatiktok2.jpeg"
+"id": 4,
+"title": "Batata Pringles",
+"theme": "Atlético Mineiro",
+"image": "/images/batata-galo-2.jpeg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
 },
 
 {
-  "id": 51,
-  "title": "Festa Completa",
-  "theme": "Fazendinha",
-  "image": "/images/festacompletafazendinha.jpeg"
+"id": 5,
+"title": "Batata Pringles",
+"theme": "Atlético Mineiro",
+"image": "/images/batata-galo.jpeg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
 },
 {
-  "id": 52,
-  "title": "Festa Completa",
-  "theme": "Atlético Mineiro",
-  "image": "/images/festacompletagalo.jpeg"
+"id": 6,
+"title": "Batata Pringles",
+"theme": "Unicórnio",
+"image": "/images/batata-unicornio.jpeg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
+
 },
 {
-  "id": 53,
-  "title": "Festa Completa",
-  "theme": "Hotwheels",
-  "image": "/images/festacompletaHot.jpeg"
+"id": 7,
+"title": "Batata Pringles",
+"theme": "Super Heróis",
+"image": "/images/batata1superheroi.jpg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
 },
 {
-  "id": 54,
-  "title": "Festa Completa",
-  "theme": "Neon",
-  "image": "/images/festacompletaneon.jpeg"
+"id": 8,
+"title": "Batata Pringles",
+"theme": "Super Heróis",
+"image": "/images/batata2superheroi.jpg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
 },
 {
-  "id": 55,
-  "title": "Kit Papelaria",
-  "theme": "Super Heróis",
-  "image": "/images/bannerpapelaria.jpg"
+"id": 9,
+"title": "Batata Pringles",
+"theme": "Super Heróis",
+"image": "/images/batata3superheroi.jpg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
+},
+{
+"id": 10,
+"title": "Batata Pringles",
+"theme": "Safari",
+"image": "/images/batata4safari.jpg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
+},
+{
+"id": 11,
+"title": "Batata Pringles",
+"theme": "Safari",
+"image": "/images/batata5safari.jpg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
+},
+{
+"id": 12,
+"title": "Batata Pringles",
+"theme": "Super Heróis",
+"image": "/images/batata6superheroi.jpg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
+},
+{
+"id": 13,
+"title": "Batata Pringles",
+"theme": "Fundo do Mar",
+"image": "/images/batatafundomar.jpeg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
+},
+{
+"id": 14,
+"title": "Batata Pringles",
+"theme": "Natal",
+"image": "/images/batatanatal.jpeg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
+},
+{
+"id": 15,
+"title": "Batata Pringles",
+"theme": "Safari",
+"image": "/images/batatasafari.jpg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
+},
+{
+"id": 16,
+"title": "Batata Pringles",
+"theme": "Safari",
+"image": "/images/batatasafari1.jpg",
+"description": "Batata pringles personalizada com biscuit ou acessório temático, de acordo com a sua preferência"
+},
+{
+"id": 17,
+"title": "Caixa Cenário",
+"theme": "Atlético Mineiro",
+"image": "/images/caixa-cenario-galo.jpeg",
+"description": "A caixa cenário é uma caixa toda decorada com biscuit e acessórios. Um item diferenciado, para dar um toque especial de luxo e requinte."
+},
+{
+"id": 18,
+"title": "Caixa Cenário",
+"theme": "Unicórnio",
+"image": "/images/caixa-cenario-unicornio.jpeg",
+"description": "A caixa cenário é uma caixa toda decorada com biscuit e acessórios. Um item diferenciado, para dar um toque especial de luxo e requinte."
+},
+{
+"id": 19,
+"title": "Caixa Cenário",
+"theme": "Unicórnio",
+"image": "/images/caixa-cenario-unicornio2.jpeg",
+"description": "A caixa cenário é uma caixa toda decorada com biscuit e acessórios. Um item diferenciado, para dar um toque especial de luxo e requinte."
+},
+{
+"id": 20,
+"title": "Caixa Dupla",
+"theme": "Atlético Mineiro",
+"image": "/images/caixa-dupla-galo.jpeg",
+"description":"Nossa caixa dupla é composta por duas caixas, com o personagem em biscuit. Caixa toda trabalhada com fitas e acessórios."
+},
+{
+"id": 21,
+"title": "Caixa Cenário",
+"theme": "Fundo do Mar",
+"image": "/images/caixacenariofundomar1.jpeg",
+"description": "A caixa cenário é uma caixa toda decorada com biscuit e acessórios. Um item diferenciado, para dar um toque especial de luxo e requinte."
+},
+{
+"id": 22,
+"title": "Caixa Cenário",
+"theme": "Fundo do Mar",
+"image": "/images/caixacenariofundomar2.jpeg",
+"description": "A caixa cenário é uma caixa toda decorada com biscuit e acessórios. Um item diferenciado, para dar um toque especial de luxo e requinte."
+},
+{
+"id": 23,
+"title": "Caixa Cenário",
+"theme": "Safari",
+"image": "/images/caixacenariosafari1.jpg",
+"description": "A caixa cenário é uma caixa toda decorada com biscuit e acessórios. Um item diferenciado, para dar um toque especial de luxo e requinte."
+},
+{
+"id": 24,
+"title": "Caixa Dupla",
+"theme": "Fundo do Mar",
+"image": "/images/caixaduplafundomar.jpeg",
+"description":"Nossa caixa dupla é composta por duas caixas, com o personagem em biscuit. Caixa toda trabalhada com fitas e acessórios."
+},
+{
+"id": 25,
+"title": "Caixa Especial",
+"theme": "Safari",
+"image": "/images/caixasepeciais2.jpg",
+"description":"Essa é uma caixa especial que pode ser usada tanto para presentear aquela pessoa especial ou como centro de mesa na sua festa. Personalizada com biscuit e acessórios de acordo com o tema escolhido. "
+},
+{
+"id": 26,
+"title": "Caixa Especial",
+"theme": "Batizado",
+"image": "/images/caixasepeciaisbatizado.jpeg",
+"description":"Essa é uma caixa especial que pode ser usada tanto para presentear aquela pessoa especial ou como centro de mesa na sua festa. Personalizada com biscuit e acessórios de acordo com o tema escolhido. "
+},
+{
+"id": 27,
+"title": "Caixa Especial",
+"theme": "Safari",
+"image": "/images/caixasespeciais.jpg",
+"description":"Essa é uma caixa especial que pode ser usada tanto para presentear aquela pessoa especial ou como centro de mesa na sua festa. Personalizada com biscuit e acessórios de acordo com o tema escolhido."
+},
+{
+"id": 28,
+"title": "Caixa Especial",
+"theme": "Safari",
+"image": "/images/caixasespeciaissafari.jpg",
+"description":"Essa é uma caixa especial que pode ser usada tanto para presentear aquela pessoa especial ou como centro de mesa na sua festa. Personalizada com biscuit e acessórios de acordo com o tema escolhido. "
+},
+{
+"id": 29,
+"title": "Caixa Especial",
+"theme": "Super Heróis",
+"image": "/images/caixasespeciaissuperheroi.jpg",
+"description":"Essa é uma caixa especial que pode ser usada tanto para presentear aquela pessoa especial ou como centro de mesa na sua festa. Personalizada com biscuit e acessórios de acordo com o tema escolhido. "
+},
+{
+"id": 30,
+"title": "Caixa Especial",
+"theme": "Super Heróis",
+"image": "/images/caixasespeciaissuperheroi2.jpg",
+"description":"Essa é uma caixa especial que pode ser usada tanto para presentear aquela pessoa especial ou como centro de mesa na sua festa. Personalizada com biscuit e acessórios de acordo com o tema escolhido. "
+},
+{
+"id": 31,
+"title": "Festa Completa",
+"theme": "Batizado",
+"image": "/images/festacompletabatizado.jpeg",
+"description": "Festa com o tema Batizado. Em dia tão especial, decoramos a sua recepção para receber as pessoas especiais da vida do seu bebê. Entre em contato para mais detalhes."
+},
+{
+"id": 32,
+"title": "Festa Completa",
+"theme": "Tik Tok",
+"image": "/images/festacompletatiktok.jpeg",
+"description": "Festa com o tema Tik Tok. Decoramos a sua festa com o tema que você deseja. Entre em contato para mais detalhes "
+},
+{
+"id": 33,
+"title": "Barra de chocolate",
+"theme": "Unicórnio",
+"image": "/images/kitkat-unicornio.jpeg",
+"description": "Barra de chocolate personalizada. Personalizamos qualquer tema."
+},
+{
+"id": 34,
+"title": "Barra de chocolate",
+"theme": "Batizado",
+"image": "/images/kitkatbatizado.jpeg",
+"description": "Barra de chocolate personalizada. Personalizamos qualquer tema."
+},
+{
+"id": 35,
+"title": "Barra de chocolate",
+"theme": "Safari",
+"image": "/images/kitkatsafari.jpg",
+"description": "Barra de chocolate personalizada. Personalizamos qualquer tema."
+},
+{
+"id": 36,
+"title": "Barra de chocolate",
+"theme": "Super Herói",
+"image": "/images/kitkatsuperheroi.jpg",
+"description": "Barra de chocolate personalizada. Personalizamos qualquer tema."
+},
+{
+"id": 37,
+"title": "Nutella",
+"theme": "Atlético Mineiro",
+"image": "/images/nutella-galo.jpeg",
+"description": "Alegria das crianças, a nutella personalizada é um item de muito sucesso. Personalizamos qualquer tema."
+},
+{
+"id": 38,
+"title": "Nutella",
+"theme": "Safari",
+"image": "/images/nutellasafari.jpg",
+"description": "Alegria das crianças, a nutella personalizada é um item de muito sucesso. Personalizamos qualquer tema."
+},
+
+{
+"id": 39,
+"title": "Papelaria de Luxo",
+"theme": "Atlético Mineiro",
+"image": "/images/papelaria-luxo-galo.jpeg",
+"description": "Papelaria de luxo com laços, fitas e acessórios para dar um toque especial a seu evento. "
+},
+{
+"id": 40,
+"title": "Papelaria de Luxo",
+"theme": "Unicórnio",
+"image": "/images/papelaria-luxo-unicornio.jpeg",
+"description": "Papelaria de luxo com laços, fitas e acessórios para dar um toque especial a seu evento. "
+},
+{
+"id": 41,
+"title": "Papelaria Simples",
+"theme": "Safari",
+"image": "/images/papelaria-simples-safari1.jpeg",
+"description": "Temos todo tipo de papelaria, com o tema da sua escolha."
+},
+{
+"id": 42,
+"title": "Papelaria Simples",
+"theme": "Safari",
+"image": "/images/papelaria-simples-safari2.jpeg",
+"description": "Temos todo tipo de papelaria, com o tema da sua escolha."
+},
+{
+"id": 43,
+"title": "Papelaria Simples",
+"theme": "Safari",
+"image": "/images/papelaria-simples-safari3.jpeg",
+"description": "Temos todo tipo de papelaria, com o tema da sua escolha."
+},
+{
+"id": 44,
+"title": "Papelaria de Luxo",
+"theme": "Super Herói",
+"image": "/images/papelaria2superheroi.jpg",
+"description": "Papelaria de luxo com laços, fitas e acessórios para dar um toque especial a seu evento. "
+},
+{
+"id": 45,
+"title": "Papelaria de Luxo",
+"theme": "Safari",
+"image": "/images/papelariasafari.jpg",
+"description": "Papelaria de luxo com laços, fitas e acessórios para dar um toque especial a seu evento. "
+},
+{
+"id": 46,
+"title": "Papelaria de Luxo",
+"theme": "Safari",
+"image": "/images/papelariasafari1.jpg",
+"description": "Papelaria de luxo com laços, fitas e acessórios para dar um toque especial a seu evento. "
+},
+{
+"id": 47,
+"title": "Papelaria de Luxo",
+"theme": "Super Herói",
+"image": "/images/papelariasuperheroi.jpg",
+"description": "Papelaria de luxo com laços, fitas e acessórios para dar um toque especial a seu evento. "
+},
+{
+"id": 48,
+"title": "Papelaria de Luxo",
+"theme": "Super Herói",
+"image": "/images/papelariasuperheroi2.jpg",
+"description": "Papelaria de luxo com laços, fitas e acessórios para dar um toque especial a seu evento. "
+},
+{
+"id": 49,
+"title": "Papelaria de Luxo",
+"theme": "Tik Tok",
+"image": "/images/papelariatiktok.jpeg",
+"description": "Papelaria de luxo com laços, fitas e acessórios para dar um toque especial a seu evento. "
+},
+{
+"id": 50,
+"title": "Papelaria de Luxo",
+"theme": "Tik Tok",
+"image": "/images/papelariatiktok2.jpeg",
+"description": "Papelaria de luxo com laços, fitas e acessórios para dar um toque especial a seu evento. "
+},
+
+{
+"id": 51,
+"title": "Festa Completa",
+"theme": "Fazendinha",
+"image": "/images/festacompletafazendinha.jpeg",
+"description": "Festa decorada com o tema Fazendinha. Decoramos a sua festa com o tema que você deseja. Entre em contato para mais detalhes "
+},
+{
+"id": 52,
+"title": "Festa Completa",
+"theme": "Atlético Mineiro",
+"image": "/images/festacompletagalo.jpeg",
+"description": "Festa decorada com o tema Atlético Mineiro. Decoramos a sua festa com o tema que você deseja. Entre em contato para mais detalhes."
+},
+{
+"id": 53,
+"title": "Festa Completa",
+"theme": "Hotwheels",
+"image": "/images/festacompletaHot.jpeg",
+"description": "Festa decorada com o tema Hotwheels. Decoramos a sua festa com o tema que você deseja. Entre em contato para mais detalhes."
+},
+{
+"id": 54,
+"title": "Festa Completa",
+"theme": "Neon",
+"image": "/images/festacompletaneon.jpeg",
+"description": "Festa decorada com o tema Neon. Decoramos a sua festa com o tema que você deseja. Entre em contato para mais detalhes."
+},
+{
+"id": 55,
+"title": "Kit Papelaria",
+"theme": "Super Heróis",
+"image": "/images/bannerpapelaria.jpg",
+"description": "Montamos o kit ideal para sua festa, de acordo com o tema escolhido e os personalizados que mais lhe agradaram. Entre em contato que vamos criar o kit ideal para seu evento."
 }
 
 ]
