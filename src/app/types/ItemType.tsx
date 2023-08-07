@@ -3,4 +3,5 @@ id: number;
 title: string;
 theme: string;
 image: string;
+description?: string
 }

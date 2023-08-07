@@ -40,6 +40,7 @@ const Product: NextPage<ProductProps> = ({ params: { productId } }) => {
             <strong className="p-2 m-2">Tema:</strong>
             {product.theme}
           </p>
+     
           <div className="flex justify-end mt-10">
             <button className='text-main  bottom-4 right-4 bg-rose hover:brightness-95 rounded-md  font-bold py-2 px-4 rounded"'>
               <Link href={'/'}>Voltar</Link>{' '}

@@ -16,7 +16,16 @@ module.exports = {
       },
       scale: {
         '175': '1.75',
-      }
+      },
+      width: {
+        '300': '300px',
+      },
+      height: {
+        '300': '300px',
+        '400': '400px',
+        '500': '500px',
+      },
+    
     },
   },
   plugins: [ require('@tailwindcss/typography'),],

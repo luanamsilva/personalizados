@@ -5,7 +5,8 @@ import itemsData from './data/itemsData.json';
 import { Item } from './components/Item';
 import NextPage from './components/NextPage';
 import unidecode from 'unidecode';
-
+import Sliders from './components/Sliders';
+import sliders from './data/sliders.json'
 
 
 
@@ -24,6 +25,9 @@ const products = itemsData.filter(item =>
 
   return (
     <div>
+     <div className='flex'>
+      <Sliders sliders={sliders}/>
+      </div>
       <div className="flex justify-center items-center mt-4 sm:mt-0 w-full sm:w-auto mb-4">
         <input
           className="rounded-md border border-rose p-1 pl-4 mt-6 mr-6 text-center text-brown placeholder:text-brown placeholder:opacity-60 outline-main bg-ligth mx:auto"
@@ -33,6 +37,7 @@ const products = itemsData.filter(item =>
           onChange={(e) => setSearch(e.target.value)}
         />
       </div>
+     
 {search === '' ? <NextPage/> :
 <div className="flex flex-wrap">
         {products.map((item) => (
