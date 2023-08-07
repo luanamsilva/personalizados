@@ -33,13 +33,14 @@ const Product: NextPage<ProductProps> = ({ params: { productId } }) => {
           height={300}
         />
         <div className="flex-col">
-          <h1 className="text-xl text-main pb-4 text-center font-bold">
+          <h1 className="text-xl text-main py-4 text-center font-bold">
             {product.title}
           </h1>
           <p className="text-center">
-            <strong className="p-2 m-2">Tema:</strong>
+            <strong className="p-2  m-2">Tema:</strong>
             {product.theme}
           </p>
+          <p className='w-64 p-2 pt-4 justify-center text-justify items-center'>{product.description}</p>
      
           <div className="flex justify-end mt-10">
             <button className='text-main  bottom-4 right-4 bg-rose hover:brightness-95 rounded-md  font-bold py-2 px-4 rounded"'>
