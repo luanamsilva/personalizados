@@ -39,7 +39,7 @@ const products = itemsData.filter(item =>
       </div>
      
 {search === '' ? <NextPage/> :
-<div className="flex flex-wrap">
+<div className="flex flex-wrap justify-center">
         {products.map((item) => (
           <Link key={item.id} href={`/products/${item.id}`} passHref>
             <Item
