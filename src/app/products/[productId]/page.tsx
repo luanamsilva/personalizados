@@ -32,7 +32,7 @@ const Product: NextPage<ProductProps> = ({ params: { productId } }) => {
           width={300}
           height={300}
         />
-        <div className="flex-col">
+        <div className="flex flex-col">
           <h1 className="text-xl text-main py-4 text-center font-bold">
             {product.title}
           </h1>
@@ -41,7 +41,12 @@ const Product: NextPage<ProductProps> = ({ params: { productId } }) => {
             {product.theme}
           </p>
           <p className='w-64 p-2 pt-4 justify-center text-justify items-center'>{product.description}</p>
-     
+     <button className='flex justify-center items-center text-brown bg-rose-200 p-1 px-3 mt-4 rounded-md text-center'>
+      <Link href="https://api.whatsapp.com/send?phone=5537998208850"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center">
+                Faça um orçamento</Link></button>
           <div className="flex justify-end mt-10">
             <button className='text-main  bottom-4 right-4 bg-rose hover:brightness-95 rounded-md  font-bold py-2 px-4 rounded"'>
               <Link href={'/'}>Voltar</Link>{' '}
