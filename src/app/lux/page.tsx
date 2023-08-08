@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Lux = () => {
   return (
     <>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-center">
         {itemsData
           .filter(
             (item) =>

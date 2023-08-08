@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Decoration = () => {
   return (
     <>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-center">
         {itemsData
           .filter((item) => item.title === 'Festa Completa')
           .map((item) => (

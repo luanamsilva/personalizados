@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Stationary = () => {
   return (
     <>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-center">
         {itemsData
           .filter((item) => item.title.includes('Papelaria'))
           .map((item) => (
