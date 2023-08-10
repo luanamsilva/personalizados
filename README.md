@@ -1,3 +1,11 @@
+
+![Screenshot from 2023-08-10 20-19-24](https://github.com/luanamsilva/personalizados/assets/83930333/d002443e-f5b4-4112-85bb-a800500660be)
+
+![Screenshot from 2023-08-10 20-19-34](https://github.com/luanamsilva/personalizados/assets/83930333/c182ec3a-1d74-4d7f-8592-c71d33239dca)
+
+![Screenshot from 2023-08-10 20-19-45](https://github.com/luanamsilva/personalizados/assets/83930333/c4273f0c-aad9-49a9-bc20-91bbf8a07715)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
